@@ -1,6 +1,6 @@
 const express = require("express")
 const router = express.Router() 
-const actsDB = require('../helpers/actionsDB')
+const actsDB = require('../helpers/actionsDB') // Pulls in 
 
 router.get('/', (req, res) => {
  actsDB.pull()
